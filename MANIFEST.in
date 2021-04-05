@@ -1,5 +1,7 @@
 # PEP 517/518 support.
 include pyproject.toml
+# Testing.
+include tox.ini
 # UI.
 exclude plover_midi/gui_qt/*_ui.py
 include plover_midi/gui_qt/*.ui
