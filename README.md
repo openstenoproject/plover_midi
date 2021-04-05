@@ -2,6 +2,13 @@
 
 Add support for MIDI keyboards/machines to [Plover](http://www.openstenoproject.org/).
 
-This include support for the Italian [Michela Machine](https://it.wikipedia.org/wiki/Macchina_Michela):
 
-![image](https://upload.wikimedia.org/wikipedia/commons/thumb/f/fb/Michela_MIDI.jpg/220px-Michela_MIDI.jpg)
+## Release history
+
+### 1.0.0
+
+* drop support for the Michela Keyboard machine (now part of the [Michela plugin](https://pypi.org/project/plover-michela/))
+
+### 0.2.6
+
+* add support for machine configuration through the Qt GUI
