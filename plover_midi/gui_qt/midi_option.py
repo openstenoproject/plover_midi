@@ -1,3 +1,4 @@
+from copy import copy
 
 from PyQt5.QtCore import QVariant, pyqtSignal
 from PyQt5.QtWidgets import QWidget
@@ -22,7 +23,7 @@ class MidiOption(QWidget, Ui_MidiWidget):
         self.port.addItems(MidiIn().get_ports())
 
     def setValue(self, value):
-        self._value = value
+        self._value = copy(value)
         port = value['port']
         if port is not None:
             self.port.setCurrentText(port)
