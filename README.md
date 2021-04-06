@@ -5,7 +5,7 @@ Add support for MIDI keyboards/machines to [Plover](http://www.openstenoproject.
 
 ## Release history
 
-### 1.0.1
+### 1.0.2
 
 * fix machine settings not being saved
 
