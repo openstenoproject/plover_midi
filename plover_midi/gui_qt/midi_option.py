@@ -6,10 +6,6 @@ from PyQt5.QtWidgets import QWidget
 from rtmidi import MidiIn
 
 from plover_midi.gui_qt.midi_widget_ui import Ui_MidiWidget
-from plover.gui_qt.i18n import get_gettext
-
-
-_ = get_gettext()
 
 
 class MidiOption(QWidget, Ui_MidiWidget):
