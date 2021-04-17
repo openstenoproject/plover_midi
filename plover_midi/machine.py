@@ -29,7 +29,7 @@ class MidiStenotype(ThreadedStenotypeBase):
     '''
 
     def __init__(self, params):
-        super(MidiStenotype, self).__init__()
+        super().__init__()
         self._params = params
         self._midi = MidiIn()
         self._midi.set_callback(self._on_message, None)

@@ -13,7 +13,7 @@ class MidiOption(QWidget, Ui_MidiWidget):
     valueChanged = pyqtSignal(QVariant)
 
     def __init__(self):
-        super(MidiOption, self).__init__()
+        super().__init__()
         self.setupUi(self)
         self._value = {}
         self.port.addItems(MidiIn().get_ports())
