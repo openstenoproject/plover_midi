@@ -5,6 +5,10 @@ Add support for MIDI keyboards/machines to [Plover](http://www.openstenoproject.
 
 ## Release history
 
+### *[unreleased]*
+
+* fix editable installation (ensure UI files are properly generated)
+
 ### 1.0.4
 
 * **really** disable unused and broken i18n support...
